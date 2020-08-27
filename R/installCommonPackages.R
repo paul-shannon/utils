@@ -8,6 +8,7 @@ BiocManager::install(ask=FALSE, update=TRUE)
 
 bioc.basics <- c("bit64",
                  "blob",
+                 "RUnit",
                  "stringi",
                  "BiocGenerics",
                  "org.Hs.eg.db",
@@ -64,6 +65,8 @@ github.packages <- c("paul-shannon/cyjShiny",
                      "priceLab/trena",
                      "priceLab/TrenaProject",
                      "priceLab/TrenaProjectHG38",
+                     "priceLab/trenaSGM",
+                     "priceLab/ghdb",
                      "priceLab/TrenaProjectErythropoiesis")
 
 for(pkg in github.packages){
