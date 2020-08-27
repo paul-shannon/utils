@@ -46,6 +46,7 @@ other.pkgs <- c("prettyunits",
                 "shiny",
                 "shinydashboard",
                 "shinyjs",
+                "factoextra",  # viz for multivariate analysis, PCA in particular
                 "colourpicker",
                 "RColorBrewer")
 pkgs <- c(bioc.basics, other.pkgs)
